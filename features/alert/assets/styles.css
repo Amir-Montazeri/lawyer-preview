@@ -1,0 +1,33 @@
+.alert-container {
+  @apply fixed top-0 right-0 h-d-screen w-screen z-40
+  backdrop-blur-sm;
+}
+
+.alert-box {
+  @apply bg-white relative left-1/2 translate-x-[-50%]
+   max-w-[95vw] w-[500px] rounded-lg py-2 px-4 mt-2;
+}
+
+.alert-cancel-container {
+  @apply absolute top-0 right-0 p-2 cursor-pointer;
+}
+
+.alert-title-container {
+  @apply w-full border-b-[1px] border-[#000000b6];
+}
+
+.alert-title-text {
+  @apply text-black text-xl capitalize;
+}
+
+.alert-description-container {
+  @apply py-2;
+}
+
+.alert-description-text {
+  @apply text-black text-sm text-gray-900;
+}
+
+.alert-button-container {
+  @apply flex justify-between;
+}
